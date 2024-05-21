@@ -538,3 +538,64 @@ p{
    }
 
 }
+@media only screen and (min-width:760px) and (max-width:850px){
+    .header{
+        height: 45vh;
+        padding: 30px 30px;
+    }
+    .main_content{
+        padding: 30px 30px;
+        height: 80vh;
+        background-size: 500px;
+        display: flex;
+        align-items: normal;
+        gap: 50px;
+    }
+    .main_content .title h4{
+        text-align: center;
+        color: hsl(208, 49%, 24%);
+        font-weight: 700;
+        font-size: 28px;
+        top: -10%;
+    }
+    .main_content_grid{
+        font-size: 20px;
+    }
+    .main_content2{
+        height: max-content;
+        gap: 60px;
+        padding: 30px ;
+        font-size: 19px;
+    }
+    .phone_bg img{
+        top: -40%;
+        width: 450px;
+        left: -10%;
+    }
+    .text{
+        padding: 10px 0px;
+        width: 100%;
+    }
+    .text_h4{
+        padding: 10px 0px;
+        color: hsl(208, 49%, 24%);
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .last_content{
+        height: max-content;
+        background-size: 500px;
+        font-size: 19px;
+    }
+    .footer{
+        background-color: hsl(240, 10%, 16%);
+        height: 30vh;
+        margin: 20px 0px 0px 0px;
+        border-radius: 0 80px 0px 0px;
+        display: grid;
+        padding: 30px 30px;
+        grid-template-columns: repeat(2,400px);
+        gap: 10px;
+        color: hsl(240, 2%, 79%);
+    }
+}
